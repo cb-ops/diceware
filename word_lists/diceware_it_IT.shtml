@@ -1,0 +1,627 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it-IT">
+    <head>
+        <title>Ing. Tarin Gamberini - Diceware in Italiano</title>
+        <meta name="description" content="Traduzione ufficiale in lingua italiana di Tarin Gamberini, autorizzata dall'autore originale Arnold G. Reinhold, della: The Diceware Passphrase Home Page." />
+        <meta name="keywords" content="passphrase,diceware,password,pgp,sicurezza,dadi,crittografia,dado,gpg,tarin,gamberini,tarin gamberini" />
+        <meta name="author" content="Tarin Gamberini" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" href="http://www.gravatar.com/avatar/ce52fb3bd75c9e676b8c4e0d598e507d.png" />
+        <link rel="stylesheet" href="../css/template.css" type="text/css" />
+        <link rel="stylesheet" href="../css/link.css" type="text/css" />
+        <!--[if lte IE 6]>
+         <link rel="stylesheet" href="../css/correzione_bachi_ie.css" type="text/css" />
+        <![endif]-->
+    </head>
+    <body id="inizio_pagina">
+        <div id="centrato">
+            <div id="intestazione">
+                <h1>Ing. Tarin Gamberini</h1>
+            </div>
+
+            <div id="corpo">
+                <div id="pannello">
+     <ul class="section">
+        <li class="section-title">Menu</li>
+        <li>
+            <ul class="menu">
+                <li><a href="../index.shtml" title="Home Page Italiana di Tarin Gamberini">Home</a></li>
+                <li><a href="https://it.linkedin.com/in/taringamberini" title="Il mio curriculum vitae su LinkedIn"><img src="../img/sito/icon_linkedin.png" alt="Tarin Gamberini's LinkedIn profile" class="linkedin-icon" /> Curriculum Vitae</a></li>
+                <li><a href="esame_stato.shtml" title="Preparazione all'Esame di Stato">Esame di Stato</a></li>
+                <li><a href="universita.shtml" title="Tesi, progetti e relazioni scritti durante i miei studi universitari">Studi Universitari</a></li>
+                <li><a href="java.shtml" title="Una raccolta di articoli, applicazioni, utility e programmi in Java">Java</a></li>
+                <li><a href="diceware_it_IT.shtml" title="Home Page Italiana della Passphrase Diceware">Diceware in Italiano</a></li>
+                <li><a href="chi_pub_pgp_gpg.shtml" title="La mia chiave pubblica GPG">Chiave pubblica GPG</a></li>
+                <li><a href="mappa.shtml" title="Mappa di taringamberini.com">Mappa del Sito</a></li>
+                <li><a href="contatti.shtml" title="Contatta Tarin Gamberini">Contatti</a></li>
+            </ul>
+        </li>
+    </ul>
+     <!--    #include virtual="div_menu_lingue.shtml"    -->
+     <ul id="citazione" class="section">
+        <li class="section-title">Citazione</li>
+        <li>
+            <script type="text/javascript" src="../javascript/citazioni.js"></script>
+            <noscript>
+                <p class="citazione"><cite>... E fu l&igrave; su che quattrocento anni fa &egrave; accaduto un fatto fondamentale, un fatto che ha dato origine ad una nuova era: l&acute;EGA, Era del Grande Anello...</cite></p>
+                <p class="titolo-autore">&quot;La Nebulosa di Andromeda&quot;<br />Ivan Antonovic Efremov</p>
+            </noscript>
+        </li>
+    </ul>
+     <ul id="dichiarazioni_conformita" class="section">
+        <li class="section-title" title="taringamberini.com &egrave; conforme agli standard web">Standard</li>
+        <li>
+            <p><a class ="div_pannello_img_link" href="http://validator.w3.org/check/referer" title="XHTML 1.0 Valido!"><img src="../img/sito/valid-xhtml10.png" alt="XHTML 1.0 Valido!" title="XHTML 1.0 Valido!" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://jigsaw.w3.org/css-validator/" title="CSS Valido!"><img src="../img/sito/valid-css2.png" alt="CSS Valido!" title="CSS Valido!" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://www.w3.org/WAI/WCAG1A-Conformance" title="Conforme al Livello A, Linee guida 1.0 per l'Accessibilit&agrave; al Contenuto Web"><img src="../img/sito/wcag1A.gif" alt="Conforme WCAG 1A" /></a></p>
+        </li>
+    </ul>
+     <ul id="campagne" class="section">
+        <li class="section-title">Campagne</li>
+        <li>
+            <p><a class ="div_pannello_img_link" href="http://www.debian.org/" title="Le priorit&agrave; di Debian GNU/Linux sono gli utenti ed il software libero"><img src="../img/sito/gnu_linux_debian.jpg" alt="gnu/linug debian logo" title="Le priorit&agrave; di Debian GNU/Linux sono gli utenti ed il software libero" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://netbeans.org/" title="NetBeans IDE &egrave; un ambiente di sviluppo opensource di successo con un'ampia base di utenti, una comunit&agrave; in crescita, e oltre 100 partners in tutto il mondo"><img src="../img/sito/netbeans-ide-logo.gif" alt="Netbeans IDE logo" title="NetBeans IDE &egrave; un ambiente di sviluppo opensource di successo con un'ampia base di utenti, una comunit&agrave; in crescita, e oltre 100 partners in tutto il mondo" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://www.libreoffice.org" title="Use LibreOffice.org"><img src="../img/sito/LibreOffice.png" alt="Use LibreOffice.org" title="Use LibreOffice.org" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://www.mozilla.org/products/thunderbird/" title="Get Thunderbird - Reclaim Your Inbox"><img src="../img/sito/thunderbird_88x31.png" alt="Get Thunderbird" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://getfirefox.com/" title="Get Firefox - The Browser, Reloaded."><img src="../img/sito/getfirefox_88x31.png"  alt="Get Firefox" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://boinc.berkeley.edu/" title="Software open-source per il calcolo distribuito volontario e per il grid computing"><img src="../img/sito/boinc_logo.png" alt="BOINC logo" title="Software open-source per il calcolo distribuito volontario e per il grid computing" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://www.anybrowser.org/campaign/" title="Sito ottimizzato per qualsiasi browser"><img src="../img/sito/w3c_any_browser.png" alt="Best viewed with any browser" title="Sito ottimizzato per qualsiasi browser" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://www.taringamberini.com/italiano/fscue.shtml#FSCUE_AA" title="Sito sensibilizzato, a livello AA, ad un corretto uso della e-mail"><img src="../img/sito/FSCUE_AA.png" alt="Sito sensibilizzato, a livello AA, ad un corretto uso della e-mail" title="Sito sensibilizzato, a livello AA, ad un corretto uso della e-mail" /></a></p>
+            <p><a class ="div_pannello_img_link" href="http://www.fsf.org/facebook" title="Not f'd — you won't find me on Facebook"><img src="../img/sito/dislike50.png" alt="Not f'd — you won't find me on Facebook" /></a></p>
+        </li>
+    </ul>
+     <!--    #include virtual="div_contatore_accessi.shtml"    -->
+    </div> <!--div id="pannello"-->
+
+
+                <div id="foglio">
+                    <div id="barra_navigazione">
+                        <h2 class="hidden">Barra di navigazione</h2>
+                        <p><a href="../index.shtml" title="Home Page Italiana di Tarin Gamberini">Home</a>
+                            &#62;
+                            <a href="contatti.shtml" title="Contatta Tarin Gamberini">Contatti</a>
+                            &#62;
+                            <a href="chi_pub_pgp_gpg.shtml" title="La mia chiave pubblica GPG">Chiave pubblica GPG</a>
+                            &#62;
+                            Diceware in Italiano</p>
+                    </div>
+
+                    <div id="contenuto">
+                        <h2>Diceware in Italiano</h2>
+
+
+
+                        <h3>Indice</h3>
+                        <ul>
+                            <li><a href="#Note_del_traduttore" title="Note del traduttore :-)">Note del traduttore</a></li>
+                            <li><a href="#Introduzione" title="Introduzione">Introduzione</a></li>
+                            <li><a href="#Cos_e_una_Passphrase" title="Cos'&egrave; una Passphrase?">Cos'&egrave; una Passphrase?</a></li>
+                            <li><a href="#Cos_e_Diceware" title="Cos'&egrave; Diceware?">Cos'&egrave; Diceware?</a></li>
+                            <li><a href="#Usare_Diceware" title="Usare Diceware">Usare Diceware</a></li>
+                            <li><a href="#Perche_Diceware" title="Perch&eacute; Diceware?">Perch&eacute; Diceware?</a></li>
+                            <li><a href="#Link_e_Riferimenti" title="Link e Riferimenti">Link e Riferimenti</a></li>
+                            <li><a href="#PGPInfo" title="Per ulteriori informazioni su PGP">Per ulteriori informazioni su PGP</a></li>
+                            <li><a href="#languages" title="Diceware in Altre Lingue">Diceware in Altre Lingue</a></li>
+                            <li><a href="#original_author_Copyright">Copyright dell'autore originale</a></li>
+                            <li><a href="#Lista_di_parole_Diceware_in_Italiano">Lista di parole Diceware in Italiano</a></li>
+                        </ul>
+
+
+
+                        <h3 id="Note_del_traduttore">Note del traduttore</h3>
+
+                        <p>Questa &egrave; la pagina ufficiale in lingua italiana, tradotta ed
+                            adattata da Tarin Gamberini, autorizzata dall'autore originale Arnold G. Reinhold, della <a class="link_esterno" href="http://world.std.com/~reinhold/diceware.html" title="Link esterno a taringamberini.com">The Diceware Passphrase Home Page <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.</p>
+
+                        <p><em>Dice</em>, in inglese, traduce la parola italiana <em>dado</em>.</p>
+
+
+
+                        <h3 id="Introduzione">Introduzione</h3>
+
+                        <p>Questa pagina offre un modo migliore per creare una passphrase
+                            (frase d'ordine) resistente, eppure semplice da ricordare, da usarsi con
+                            programmi di crittografia e sicurezza. Password e passphrase sono spesso
+                            il pi&ugrave; comune difetto nella sicurezza dei computer. Prendete pochi minuti
+                            ed imparate come farlo bene. Le informazioni presentate qui possono essere
+                            utilizzate da chiunque. Non &egrave; richiesta alcuna conoscenza di crittografia
+                            o matematica.</p>
+
+                        <p>Questa pagina &egrave; disponibile anche in
+                            <a href="#languages">Cinese, Finlandese, Francese, Giapponese, Italiano, Polacco e Spagnolo</a>.
+                            Ci sono anche <a href="#languages">liste di parole in Finlandese, Francese, Italiano, Tedesco, 
+                            Olandese, Polacco, Russo, Spagnolo, Svedese e Turco</a> ed una
+                            <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html">FAQ <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.</p>
+
+
+
+                        <h3 id="Cos_e_una_Passphrase">Cos'&egrave; una Passphrase?</h3>
+
+                        <p>Una passphrase (frase d'ordine) &egrave; un gruppo di parole e caratteri che
+                            voi digitate sul vostro computer che vi permettono di stabilire con
+                            sicurezza che la persona che sta digitando siete voi. La maggior parte dei
+                            pi&ugrave; nuovi programmi di sicurezza vi permette di introdurre una passphrase
+                            al posto di solo una breve password (parola d'ordine) per aggiungere
+                            sicurezza contro gli attacchi. Anche alcuni programmi utilizzano la vostra
+                            passphrase per costruire una chiave crittografica per crittare i vostri dati:</p>
+
+                        <ul>
+                            <li>Passphrase sono utilizzate dalle
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/airport.html">reti di sistemi di sicurezza wireless <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> Wi-Fi come WPA e WPA2, quando sono utilizzati in modalit&agrave; a chiave personale condivisa (PSK: Personal Shared Key). La sicurezza di entrambi i sistemi dipende dalla forza della passphrase che scegliete.</li>
+
+                            <li>Il famoso programma di crittografia di Phil Zimmermann
+                                <a href="#PGPInfo">PGP</a>, per esempio, vi richiede
+                                di costruire una passphrase da voi inserita ogni volta che firmate o
+                                decrittate messaggi. Altrettanto fa la versione open-source,
+                                <a class="link_esterno" href="http://www.gnupg.org/">GnuPG <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.</li>
+
+                            <li>Un servizio Internet chiamato
+                                <a class="link_esterno" href="http://www.hushmail.com/">HushMail <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                                fornisce e-mail crittate (includendo finalmente l'aggiornamento per
+                                gli utenti Mac), ma la sua sicurezza dipende quasi interamente dalla
+                                qualit&agrave; della vostra passphrase. (Vedere le
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html#hushmail">FAQ Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                                se state pianificando di utilizzare HushMail.)</li>
+
+                            <li>Le passphrase sono utilizzate dai programmi di crittazione dei dischi
+                                come PGPdisk ed Apple's FileVault.</li>
+
+                            <li>Le ultime versioni dei pi&ugrave; popolari sistemi operativi, inclusi
+                                WindowsXP e Mac OS-X (10.3 e successivi), consentono di utilizzare
+                                passphrase pi&ugrave; lunghe per l'autenticazione al log-on, invece che
+                                accettare solamente una breve password.</li>
+
+                            <li>Utilizzare una passphrase in risposta ad una &quot;domanda di
+                                sicurezza&quot; (come "In che citt&agrave; sei nato?") vi protegge contro
+                                tentativi di scoprire la vostra risposta.</li>
+                        </ul>
+
+                        <p>Dovreste seguire le istruzioni di Diceware ed avere la vostra passphrase
+                            pronta <i>prima</i> di installare un router WiFi, di creare la vostra chiave
+                            PGP o GPG, di aprire un nuovo Hushmail account o di salvare un disco crittato.</p>
+
+                        <p>Le passphrase differiscono dalle password solo per la lunghezza.
+                            Pass<i>words</i> solitamente sono corte -- da sei a dieci caratteri.
+                            Password corte vanno bene per accedere a sistemi di computer programmati
+                            per rilevare un gran numero di tentativi errati e proteggere le
+                            password memorizzate appropriatamente, ma esse non sono sicure da usare
+                            con sistemi crittografici. Le passphrase sono solitamente pi&ugrave; lunghe
+                            -- tipicamente dai 20 ai 40 caratteri, alcune volte pi&ugrave; lunghe. La loro
+                            maggior lunghezza le rende pi&ugrave; sicure. Passphrase moderne furono inventate
+                            da <a href="#Porter">Sigmund N. Porter</a> nel 1982.
+                            <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html#login">Se tutto ci&ograve; che vi serve ora &egrave; una password di login, clickate qui  <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>. Diversamente, prosegui con la lettura.</p>
+
+                        <p>Escogitare una buona passphrase &egrave; una delle cose pi&ugrave; importanti che dovete
+                            fare per preservare la privacy dei vostri computer, dati e messaggi e-mail.
+                            Una passphrase dovrebbe essere:</p>
+                        <ul>
+                            <li>Nota solo a voi;</li>
+                            <li>Lunga abbastanza da essere sicura;</li>
+                            <li>Difficile da indovinare -- perfino da qualcuno che vi conosce bene;</li>
+                            <li>Semplice da ricordare per voi;</li>
+                            <li>Semplice da digitare accuratamente.</li>
+                        </ul>
+
+
+
+                        <h3 id="Cos_e_Diceware">Cos'&egrave; Diceware?</h3>
+
+                        <p>Diceware&#8482; &egrave; un metodo per escogitare passphrase tramite l'uso di
+                            dadi per selezionare a caso parole da una lista speciale chiamata la Lista
+                            di Parole Diceware. Ogni parola nella lista &egrave; preceduta da cinque cifre
+                            numeriche. Tutte le cifre sono comprese fra uno e sei, permettendovi di
+                            utilizzare i risultati dei lanci di cinque dadi per selezionare un'unica
+                            parola dalla lista.</p>
+
+                        <p>Eccovi un breve estratto dalla lista di parole Diceware inglese:</p>
+                        <pre>16655     clause
+16656     claw
+16661     clay
+16662     clean
+16663     clear
+16664     cleat
+16665     cleft
+16666     clerk
+21111     cliche
+21112     click
+21113     cliff
+21114     climb
+21115     clime
+21116     cling
+21121     clink
+21122     clint
+21123     clio
+21124     clip
+21125     clive
+21126     cloak
+21131     clock</pre>
+
+                        <p>La <a class="link_esterno" href="http://world.std.com/%7Ereinhold/diceware.wordlist.asc">lista completa inglese <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                            contiene 7776 brevi parole Inglesi, abbreviazioni e stringhe di caratteri
+                            semplici da ricordare. La lunghezza media di ogni parola &egrave; di circa 4.2
+                            caratteri. Le parole pi&ugrave; lunghe sono lunghe sei caratteri. La lista &egrave;
+                            basata su una lista di parole pi&ugrave; lunga postata sul news group Internet
+                            <i>sci.crypt</i> da Peter Kwangjun Suk. Una
+                            <a class="link_esterno" href="http://world.std.com/%7Ereinhold/beale.wordlist.asc">lista alternativa <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>,
+                            scritta da Alan Beale, contiene meno Americanismi e parole desuete. Sono
+                            disponibili <a href="#languages">liste di diversi altri linguaggi</a>.
+                            Potete anche scaricare la
+                            <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarewordlist.pdf">lista di parole Diceware in formato PDF <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                            o
+                            <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarewordlist.ps">in formato PostScript <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.</p>
+
+
+
+                        <h3 id="Usare_Diceware">Usare Diceware</h3>
+
+                        <p>Per usare la lista di parole Diceware avrete bisogno di uno o pi&ugrave; dadi.
+                            Dadi sono presenti in molti giochi da tavolo e sono venduti separatamente
+                            nei negozi di giocattoli, hobby e magia.
+                            <a class="link_esterno" href="http://www.toysrus.com/">Toys"R"Us <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> vende
+                            una confezione di cinque dadi per circa un dollaro.
+                            Sono anche disponibili
+                            <a class="link_esterno" href="http://www.google.com/search?q=Braille+dice">Dadi Braille <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.
+                            Potete procurarvi online cinque
+                            <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html#casino">dadi da casino <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                            da
+                            <a class="link_esterno" href="http://www.casinocom.com/Diceonly.html">Casinocom.com <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                            per circa 11 dollari, ma sono esagerati per i nostri scopi.
+                            <i><a class="link_esterno" href="http://world.std.com/~reinhold/dicewarefaq.html#electronic">Non utilizzate programmi per computer o generatori elettronci di dadi <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></i>.</p>
+
+                        <ol>
+                            <li>Scaricate la
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/diceware.wordlist.asc">lista Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                                completa o la
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/beale.wordlist.asc">lista alternativa di Beale <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                                e salvatela sul vostro computer. <a href="#print">Stampatela</a> se
+                                volete. Quindi ritornate a questa pagina con il bottone &quot;Back&quot;
+                                del vostro browser.
+                            </li>
+                            <li>Decidete quante parole volete nella vostra passphrase. Una
+                                passphrase di cinque parole fornisce un livello di sicurezza pi&ugrave;
+                                alto rispetto alle semplici password che la maggior parte della
+                                gente usa. Raccomandiamo un minimo di sei parole per l'utilizzo di
+                                Hushmail, sicurezza wireless e programmi di crittografia. Una
+                                passphrase di sette parole &egrave; concepita per rendere infattibili
+                                attacchi ad essa fino al 2033. Per ulteriori informazioni, vedere le
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html#howlong">FAQ Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.
+                            </li>
+                            <li>Ora lanciate il dado e scrivere il risultato su un foglietto di
+                                carta. Scrivere i numeri in gruppi di cinque. Create tanti di questi
+                                gruppi di cinque cifre quante sono le parole che volete nella vostra
+                                passphrase. Potete lanciare un dado cinque volte o lanciare cinque
+                                dadi una volta, o qualsiasi combinazione intermedia. Se lanciate
+                                diversi dadi alla volta, leggete i dadi da sinistra a destra.
+                            </li>
+                            <li>Cercate ogni numero di cinque cifre nella lista di parole
+                                Diceware e prendete la parola vicino a tale numero. Per esempio,
+                                21124 significa che la prossima parola nella vostra passphrase
+                                dovrebbe essere "clip" (vedere l'estratto dalla lista sopra).
+                            </li>
+                            <li>Quando avete fatto, le parole che avete trovato sono la vostra nuova
+                                passphrase. Memorizzatela e distruggete il foglietto di carta o
+                                ponetelo in un luogo veramente sicuro.
+                            </li>
+                        </ol>
+
+                        <p>Questo &egrave; tutto quello che c'&egrave; da fare!</p>
+
+
+
+                        <h4>Esempi</h4>
+
+                        <p>Supponiamo vogliate una passphrase di cinque parole, come raccomandiamo
+                            per la maggioranza degli utenti. Avrete bisogno 5 volte di 5 lanci oppure
+                            avrete bisogno di 25 lanci. Diciamo che siano usciti:</p>
+                        <pre>1, 6, 6, 6, 5, 1, 5, 6, 5, 3,
+5, 6, 3, 2, 2, 3, 5, 6, 1, 6,
+6, 5, 2, 2, 4</pre>
+
+                        <p>Scrivete i risultati su un foglietto di carta in gruppi di cinque
+                            lanci:</p>
+                        <pre>1 6 6 6 5
+1 5 6 5 3 
+5 6 3 2 2 
+3 5 6 1 6 
+6 5 2 2 4</pre>
+
+                        <p>Poi per ognuno dei gruppi di cinque lanci cercate nella lista di parole
+                            Diceware la parola associata e scrivetela a fianco del gruppo:</p>
+                        <pre>1 6 6 6 5     cleft
+1 5 6 5 3     cam
+5 6 3 2 2     synod
+3 5 6 1 6     lacy
+6 5 2 2 4     yr</pre>
+
+                        <p>Infine la vostra passphrase sar&agrave;:</p>
+                        <pre><strong>cleftcamsynodlacyyr</strong></pre>
+
+
+
+                        <h4>Alcuni Consigli</h4>
+
+                        <ul>
+                            <li>Per la massima sicurezza assicuratevi di essere soli e chiudete le
+                                tende. Scrivete su di una superficie dura - non un blocchetto di carta.
+                                Dopo aver memorizzato la vostra passphrase, bruciate il foglietto di
+                                carta, polverizzate le ceneri e buttatele gi&ugrave; nello sciacquone del
+                                bagno.
+                            </li>
+                            <li>Se state utilizzando una passphrase per la crittografia di file,
+                                raccomandiamo che ve ne teniate una copia scritta in qualche posto
+                                sicuro. Se non lo fate e dimenticate la vostra passphrase, i vostri
+                                file sono persi per sempre.
+                            </li>
+                            <li id="print">Se volete lavorare con una copia cartacea della lista di
+                                parole, scaricate la
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarewordlist.pdf">lista di parole Diceware in formato PDF <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> o in
+                                <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarewordlist.ps">formato PostScript <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.
+                                Questi file sono formattati con 4 colonne e 54 linee per pagina.
+                                Otterrete uno stampato ordinato, di 36 pagine, nel quale i primi due
+                                dadi lanciati sono gli stessi per ogni pagina. Ci&ograve; rende la consultazione
+                                particolarmente agevole. Se preferite uno stampato pi&ugrave; compatto,
+                                <a class="link_esterno" href="http://www.rubin.ch/pgp/diceware.html">qui c'&egrave; la versione in 11 pagine di Patrick Feisthammel <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>. <i>Prestate
+                                    attenzione a non segnare la copia cartacea in alcun modo mentre
+                                    selezionate le parole</i>. Potete anche trovare la lista di parole in
+                                appendice alla voce
+                                <a class="link_esterno" href="http://world.std.com/~reinhold/diceware.html#internetsecrets">Segreti Internet <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.
+                            </li>
+                            <li>Se avete bisogno spesso di creare delle passphrase, prendete una
+                                scatola da scarpe o un contenitore per il cibo approssimativamente
+                                della stessa misura. Mettete i cinque dadi nella scatola, agitateli
+                                vigorosamente -- al minimo dieci scossoni forti -- ed inclinate la
+                                scatola per consentire a tutti i dadi di scivolare sul lato. Ora
+                                aprite la scatola, leggete i dadi da sinistra a destra, o dall'alto
+                                al basso se allineati verticalmente, quindi cercate direttamente la
+                                corrispondenza sulla lista di parole. Ripetete il processo finch&egrave; avete
+                                sufficienti parole per la vostra passphrase.
+                            </li>
+                            <li>Raccomandiamo di utilizzare la passphrase esattamente come &egrave; stata
+                                generata. Se desiderate una passphrase pi&ugrave; forte, selezionate una parola
+                                aggiuntiva usando il metodo Diceware.
+                            </li>
+                            <li>Poich&egrave; alcune parole sulla lista Diceware sono di due caratteri o meno,
+                                potreste ottenere una passphrase molto corta. Se la vostra passphrase,
+                                inclusi gli spazi fra le parole, &egrave; inferiore ai 14 caratteri di
+                                lunghezza, raccomandiamo di ripartire creando una nuova passphrase.
+                                Dovreste ripartire anche se la vostra passphrase &egrave; una frase Inglese
+                                riconoscibile. (Nessuna di queste situazioni accade molto spesso.)
+                            </li>
+                            <li>Vedere le <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html#memory">FAQ Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>
+                                per suggerimenti su come memorizzare la vostra passphrase.
+                            </li>
+                        </ul>
+
+
+
+                        <h4>Argomenti ulteriori che non avete veramente bisogno di sapere</h4>
+
+                        <ul>
+                            <li id="addletter">Per sicurezza extra senza aggiungere un'altra parola,
+                                inserite una cifra od un carattere speciale scelti a caso nella vostra
+                                passphrase. Qui &egrave; spiegato come fare in sicurezza: lanciate un dado per
+                                scegliere una parola nella vostra passphrase, lanciate ancora per scegliere
+                                una lettera all'interno della parola. Lanciate una terza ed una
+                                quarta volta per prelevare il carattere aggiuntivo dalla seguente tabella:
+                                <pre>         T e r z o L a n c i o
+         1   2   3   4   5   6
+&nbsp;
+Q  1     ~   !   #   $   %   ^
+u  2     &amp;   *   (   )   -   =
+a  3     +   [   ]   \   {   }
+r  4     :   ;   "   '   &lt;   &gt;
+t  5     ?   /   0   1   2   3
+o  6     4   5   6   7   8   9</pre>
+                            </li>
+                            <li>Per chi ha le opportune conoscenze tecniche, ogni parola nella vostra
+                                passphrase Diceware contiene 12.9 bit di entropia. L'entropia &egrave; il modo
+                                in cui &egrave; misurata la sicurezza di una passphrase. Una passphrase Diceware
+                                di cinque parole dovrebbe avere un'entropia di al minimo 64.6 bit; con
+                                sei parole dovrebbe avere 77.5 bit, con sette parole 90.4 bit. Inserire
+                                una lettera a caso aggiunge circa 10 bit di entropia. Assumendo,
+                                naturalmente, che voi teniate segreta la vostra passphrase.
+                            </li>
+                            <li>Troverete molte pi&ugrave; informazioni delle quali non avrete veramente
+                                bisogno nelle <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html">FAQ Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>.
+                            </li>
+                        </ul>
+
+
+
+                        <h3 id="Perche_Diceware">Perch&eacute; Diceware?</h3>
+
+                        <p>Esistono <a href="#faqs">molte raccomandazioni varie</a> disponibili su
+                            Internet relativamente a come procurarsi una passphrase. Molti sono buoni
+                            , pochi altri cattivi, ma quasi tutti richiedono all'utente di giudicare
+                            cosa sar&agrave; difficile da indovinare dagli altri. Alcuni non danno alcuna
+                            direttiva su come fare ci&ograve;, altri eseguono complicati calcoli matematici.
+                            Contrariamente, il metodo Diceware per generare delle passphrase &egrave;:</p>
+                        <ul>
+                            <li>Semplice da imparare ed usare;</li>
+                            <li>Molto sicuro;</li>
+                            <li>Completamente prescrittivo - vi diciamo esattamente cosa fare ad ogni
+                                passo del processo;</li>
+                            <li>Trasparente - non ci sono &quot;fidati di me&quot;;</li>
+                            <li>Gratuito - non &egrave; richiesto nessun software o hardware, solo la lista
+                                di parole Diceware ed alcuni normalissimi dadi.</li>
+                        </ul>
+
+                        <p>La natura prescrittiva di Diceware &egrave; molto importante per coloro
+                            che si avvicinano per la prima volta alla crittografia. Ecco l'esperienza
+                            di una persona, cos&igrave; come postata sul newsgroup Internet <i>alt.security.pgp</i>:</p>
+
+                        <blockquote>
+                            <p>&quot;Vorrei solo raccontare una storia personale in merito a come sia
+                                difficile convincere un novello dell'importanza di selezionare un password
+                                sicura, e fargli capire cosa rende sicura una password. Sono un veterano
+                                sia di Internet che di argomenti di sicurezza. Mia sorella, comunque,
+                                voleva aprire un account Internet. Lei vive nel medio ovest (mid-west)
+                                mentre io vivo sulla costa ovest (west coast). In pratica ci scambiamo
+                                frequenti piccole e-mail molto personali.</p>
+
+                            <p>Recentemente, volle dare a suo marito la propria password Internet in
+                                modo che anche lui potesse essere on line. Comunque, voleva ancora
+                                essere in grado di scambiare messaggi privati con me che suo marito
+                                non fosse in grado di leggere. Io, naturalmente, la introdussi a PGP.</p>
+
+                            <p>Le diedi le letture usuali che introducono all'importanza di scegliere
+                                password che nessun altro possa indovinare facilmente, e che la password
+                                ideale dovrebbe essere una parola oscura e senza senso che dovrebbe
+                                avere senso solo per lei. Le dissi tutto circa il non scegliere date di
+                                nascita, anniversari, nomi e simili. Non le suggerii una combinazione
+                                casuale di lettere e numeri perch&eacute; non si trattava di un caso di sicurezza
+                                mondiale, volevamo solo tenere suo marito aldifuori delle nostre lettere
+                                private. Cos&igrave;. dopo che lei scelse la sua password PGP, decisi di fare
+                                un tentativo per crackarla. VERAMENTE LA PRIMA password sulla quale
+                                provai a lavorare! Mia sorella fu totalmente sorpresa di come
+                                semplicemente riuscii ad indovinarla, ma era una parola accessibile a
+                                chiunque conoscesse mia sorella. Cos&igrave;, dopo averle dato pi&ugrave; consigli
+                                per la scelta di una buona password. la lasciai tentare di nuovo.
+                                Questa volta, mi ci vollero solo tre tentativi prima di indovinare la
+                                password corretta. Infine lei moll&ograve; e diede a me il compito di escogitare
+                                una password per lei.&quot;</p>
+                        </blockquote>
+
+                        <p>Se avesse usato Diceware, la prima passphrase della sorella dell'autore
+                            sarebbe stata totalmente sicura e nota solo a lei. Ricordate: nella
+                            crittografia a chiave pubblica, la sicurezza del vostro messaggio dipende
+                            dalla passphrase del <i>destinatario</i>. Diffondete Diceware!</p>
+
+
+
+                        <h3 id="Link_e_Riferimenti">Link e Riferimenti</h3>
+
+                        <p>Per ulteriori informazioni sulle passphrase e Diceware vedere i seguenti:</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html">FAQ Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> Domande e risposte per le persone che vogliono saperne di pi&ugrave; su Diceware e la generazione di passphrase.</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/diceware.wordlist.asc">Lista di parole Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>, la lista in <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarewordlist.ps">formato PostScript <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>, <a class="link_esterno" href="http://world.std.com/%7Ereinhold/beale.wordlist.asc">lista di parole di Beale <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>, <a class="link_esterno" href="http://world.std.com/%7Ereinhold/dicewarefaq.html#diceware8k">lista Diceware8k <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> per generazione al computer.</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/passphrase.survey.asc">Una Indagine sull'uso delle Passphrase PGP <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> Una veloce indagine che feci per vedere cosa fanno gli utenti per creare le loro passphrase PGP, ed alcuni suggerimenti per migliorarle.</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/diceware.txt">Diceware per la Generazione di Passphrase ed Altre Applicazioni Crittografiche. <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> Include informazioni su altri usi di Diceware ed un'analisi della sicurezza Diceware.</p>
+
+                        <p><a class="link_esterno" href="http://www-106.ibm.com/developerworks/library/pass2/index.html">Proteggere le Password <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> di Gary McGraw and John Viega, un articolo nel IBM Developerworks Security Library che discute password, passphrase e Diceware.</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/passgen.html">Passgen: Una Applet Java Generatore di Password <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> Sfrutta le latenza di tastieraper generare password casuali basate su un formato selezionabile. Non sicuro come il metodo Diceware, ma adeguato per password di login ed applicazioni simili. Include il codice sorgente.</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/truenoise.html">Sorgenti di Rumore Casuale <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> una raccolta di informazioni si sorgenti di casualit&agrave; da utilizzare con i computer.</p>
+
+                        <p><a class="link_esterno" href="http://ciphersaber.gurus.com/">CipherSaber Home Page <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> Imparate come costruire il vostro forte programma di crittografia. E' pi&ugrave; semplice di quanto pensiate!</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Ereinhold/papers.html">Altri Articoli sulla Crittografia di Arnold Reinhold <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> P=?NP -- who Cares?, Cryptanalysis of Histocompatibility, ecc...</p>
+
+                        <p id="Porter">S. N. Porter, <i>A Password Extension for Improved Human Factors,</i><br />
+                            Advances in Cryptology: A Report on CRYPTO 81, Allen Gersho, editor, volume 0, U.C. Santa Barbara Dept. of Elec. and Computer Eng., Santa Barbara, 1982. Pages 81--81. Also in Computers &amp; Security, Vol. 1. No. 1, 1982, North Holland Press.</p>
+
+                        <p>Oren Tirosh ha un <a class="link_esterno" href="http://www.tothink.com/mnemonic/">sito sull'uso di liste di parole per rappresentare grandi numeri <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> per crittografia ed altri scopi. Ci sono riferimenti a molte interessanti liste di parole.</p>
+
+
+
+                        <h3 id="PGPInfo">Per ulteriori informazioni su PGP</h3>
+
+                        <p><a class="link_esterno" href="http://net.gurus.com/pgp">Internet Gurus Central -- Introduzione a PGP <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p><a class="link_esterno" href="http://web.mit.edu/network/pgp.html">Sito di Distribuzione del MIT per il PGP <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p><a class="link_esterno" href="http://www.pgpi.com/">Home Page Internazionale di PGP <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/%7Efranl/crypto.html">Cryptografia di Fran Litterio, PGP and Your Privacy Page <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p><a class="link_esterno" href="http://www.pgp.com/">PGP Home Page <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p><a class="link_esterno" href="http://groups.yahoo.com/group/PGP-Basics/">Newsgroup su Yahoo sui Fondamenti di PGP <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p id="faqs">Qui ci sono alcuni altri siti con raccomandazioni su come creare una passphrase. Non sono sbagliati, solo che potrebbero essere troppo complicati per la maggioranza delle persone. Date un'occhiata e giudicate voi stessi.</p>
+
+                        <p><i><a class="link_esterno" href="http://www.stack.nl/%7Egalactus/remailers/passphrase-faq.html">Passphrase FAQ <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></i><a class="link_esterno" href="http://www.stack.nl/%7Egalactus/remailers/passphrase-faq.html"> di Randall T. Williams <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></p>
+
+                        <p><i><a class="link_esterno" href="http://www.unix-ag.uni-kl.de/~conrad/krypto/passphrase-faq.html">SkuzNET - How to Choose a Passphrase FAQ <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></i></p>
+
+
+
+                        <h4 id="languages">Diceware in Altre Lingue</h4>
+
+                        <p>Vedere <a class="link_esterno" href="http://world.std.com/~reinhold/diceware.html#languages" title="Link esterno a taringamberini.com">Diceware in Other Languages <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a>, nella pagina in lingua originale, per traduzioni della "The Diceware Passphrase Home Page" e per le liste di parole Diceware in altre lingue.</p>
+
+                        <p>Vedere la <a href="#Lista_di_parole_Diceware_in_Italiano">lista di parole Diceware in Italiano</a>.</p>
+
+                        <p><a class="link_esterno" href="http://world.std.com/~reinhold/dicewarekit.html">Il Kit Diceware <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a> contiene istruzioni sul come creare una lista di parole Diceware per altre lingue.</p>
+
+
+
+                        <h3 id="original_author_Copyright">Copyright &copy; 1995-2006, Arnold G. Reinhold Cambridge, Massachusetts USA.</h3>
+                        <p>The author hereby grants rights for free, non-commercial, electronic distribution, with attribution, of this <i>entire</i> text or just the Diceware word list. Linking to this page is permitted and encouraged. All other rights reserved. Reasonable requests for other uses, such as translations, are encouraged and will be carefully and promptly considered. This information is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+                        <p>Diceware is a trademark of A G Reinhold.</p>
+
+
+
+                        <h3 id="Lista_di_parole_Diceware_in_Italiano">Lista di parole Diceware in Italiano</h3>
+                        <p>Scarica la lista di parole Diceware in Italiano:</p>
+
+                        <div class="download">
+                            <h4>Download</h4>
+                            
+                            <p><img class="inline_icon" src="../img/sito/inline_icon_file_zip.gif" alt="formato zip" title="formato zip" />
+                                <a class="download" href="../download/diceware_it_IT/word_list_diceware_it-IT-1.0.11.zip" title="word list Diceware in Italiano in formato zip">word_list_diceware_it-IT-1.0.11.zip
+                                    <img class="inline_icon" src="../img/sito/inline_icon_link_download.gif" alt="link per il download da taringamberini.com" title="link per il download da taringamberini.com" /></a>
+                                155KB</p>
+                            <ul>
+                                <li>con doppia licenza: GPL v3 e GFDL v1.3</li>
+                                <li>Assicurati dell'autenticit&agrave; del file scaricato verificando la sua
+                                    <a class="download" href="../download/diceware_it_IT/word_list_diceware_it-IT-1.0.11.zip.sig">firma GPG
+                                        <img class="inline_icon" src="../img/sito/inline_icon_link_download.gif" alt="link per il download file da taringamberini.com" title="link per il download da taringamberini.com" /></a> con
+                                    <a href="chi_pub_pgp_gpg.shtml" title="La mia chiave pubblica GPG">la mia chiave pubblica GPG</a>.</li>
+                            </ul>
+                            
+                            <p><img class="inline_icon" src="../img/sito/inline_icon_file_pdf.gif" alt="formato pdf" title="formato pdf" />
+                                <a class="download" href="../download/diceware_it_IT/word_list_diceware_it-IT-1.0.11.pdf" title="word list Diceware in Italiano in formato pdf">word_list_diceware_it-IT-1.0.11.pdf
+                                    <img class="inline_icon" src="../img/sito/inline_icon_link_download.gif" alt="link per il download da taringamberini.com" title="link per il download da taringamberini.com" /></a>
+                                185KB</p>
+                            <ul>
+                                <li>con licenza GFDL v1.3</li>
+                                <li>Assicurati dell'autenticit&agrave; del file scaricato verificando la sua
+                                    <a class="download" href="../download/diceware_it_IT/word_list_diceware_it-IT-1.0.11.pdf.sig">firma GPG
+                                        <img class="inline_icon" src="../img/sito/inline_icon_link_download.gif" alt="link per il download file da taringamberini.com" title="link per il download da taringamberini.com" /></a> con
+                                    <a href="chi_pub_pgp_gpg.shtml" title="La mia chiave pubblica GPG">la mia chiave pubblica GPG</a>.</li>
+                            </ul>
+
+                            <p>Leggi l'informativa sulle <a href="note_copyright.shtml">note legali</a> con cui &egrave; distribuito il materiale presente su questo sito.</p>
+                        </div> <!--div class="download"-->
+                        
+                        <h4 id="Contributors">Contributi</h4>
+                        <p>Ringrazio le seguenti persone che con osservazioni e 
+                            suggerimenti hanno contribuito a migliorare la lista 
+                            di parole Diceware in Italiano:</p>
+                        <ul>
+                            <li id="John_Neffenger"><a class="link_esterno" href="https://plus.google.com/102856396524608377910">John Neffenger 
+                                    <img class="inline_icon" src="../img/sito/inline_icon_link_esterno.gif" alt="(link esterno a taringamberini.com)" title="link esterno a taringamberini.com" /></a></li>
+                        </ul>
+                        <p>Se ti piacerebbe lasciare commenti o suggerimenti
+                            <a href="https://github.com/taringamberini/diceware_word_list_it-IT/issues">
+                                <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+                                apri una issue su GitHub</a>.
+                        </p>
+                    </div> <!--div id="contenuto"-->
+
+                    <div id="barra_navigazione_pagina">
+                        <div id="ombra_foglio_bottom_left">
+                            <p class="torna_su"><a class="torna_su" href="#inizio_pagina" title="Torna all'inizio della pagina">Inizio pagina ^</a></p>
+                            <div id="ombra_foglio_bottom_right"></div>
+                        </div>
+                    </div>
+
+                </div> <!--div id="foglio"-->
+            </div> <!--div id="corpo"-->
+
+            <div id="piede">
+    <p>Copyright &copy; 2003, 2015 Tarin Gamberini</p>
+    
+    <!--p><a class="email" href="email.shtml" title="Indirizzo e-mail di Tarin Gamberini"><img class="email" src="../img/sito/email_job_at_taringamberini_com.png" alt="Tarin Gamberini e-mail" /></a></p-->
+    
+    <p class="ultimo_aggiornamento">Ultimo aggiornamento 22/03/2015</p>    
+   </div>
+        </div> <!--div id="centrato"-->
+    </body>
+</html>

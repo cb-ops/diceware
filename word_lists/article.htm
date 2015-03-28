@@ -1,0 +1,949 @@
+<HTML>
+
+<HEAD>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app2.us.archive.org";archive_analytics.values.server_ms=377;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+<title> [ La Méthode Diceware - Charentaises ] </title>
+<SCRIPT src="IMG/002/_interface.js" type="text/javascript"></SCRIPT>
+<link rel="stylesheet" href="IMG/002/_interface.css" type="text/css">
+</HEAD>
+<BODY>
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "12";
+var displayMonth = "Okt";
+var displayYear = "2004";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20041012030451" /><input type="submit" value="Go" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    <a href="/web/20040708055504/http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" title="8 Jul 2004">JUL</a>
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 3:04:51 Okt 12, 2004">OKT</td>
+		<td class="f" nowrap="nowrap">
+		
+		    <a href="/web/20121217022553/http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" title="17 Dez 2012"><strong>DEZ</strong></a>
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20040708055504/http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" title="5:55:04 Jul 8, 2004"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 3:04:51 Okt 12, 2004">12</td>
+	       <td class="f" nowrap="nowrap">
+               
+		   <a href="/web/20121217022553/http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" title="2:25:53 Dez 17, 2012"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a>
+	       
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   2003
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 3:04:51 Okt 12, 2004">2004</td>
+	       <td class="f" nowrap="nowrap">
+               
+	           <a href="/web/20121217022553/http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" title="17 Dez 2012"><strong>2012</strong></a>
+	       
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20041012030451*/http://www.gjldp.org/CHARENTAISES/article.php3?id_article=4" title="See a list of every capture for this URL">9 captures</a>
+           <div class="r" title="Timespan for captures of this URL">8 Jul 04 - 26 Jul 13</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:9:000000100100_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000000_2008:-1:000000000000_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000000000000_2012:-1:000000000001_2013:-1:201002100000_2014:-1:000000000000_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<div align="center"> 
+    <table class="tab_menu" cellpadding="0" cellspacing="4">
+    <tr> 
+      <td class="grison_actif" onClick="d('index.php3');" onMouseOut="c(this,'grison_actif');" 
+ onMouseOver="c(this,'grison');"> <a class="01" href="index.php3">Accueil</a></td>
+      <td class="gris" onClick="d('breve.php3')" onMouseOut="c(this,'gris');" 
+ onMouseOver="c(this,'grison');"><a class="01" href="breve.php3">Br&egrave;ves</a></td>
+       
+      <td class="gris" onClick="d('plan.php3')" onMouseOut="c(this,'gris');" 
+ onMouseOver="c(this,'grison');"><a class="01" href="plan.php3">Plan du site</a></td>
+       <td class="gris" onClick="d('#');" onMouseOut="c(this,'gris');" 
+ onMouseOver="c(this,'grison');"><a class="01" href="#">Contact</a></td>
+      <td width="30%" align="right">
+        <form action="recherche.php3" method="post" style="MARGIN: 0px">
+          <input class="spip_recherche" name="recherche" size="18" >
+          <input name="submit" type="submit" class="submit" value="Ok">
+        </form>
+      </td>
+    </tr>
+  </table>
+<br><br>
+
+  <TABLE width=750  border=0 cellPadding=0 cellSpacing=0>
+    <TBODY> 
+    <TR> 
+      <TD vAlign=top width="490"> 
+	  
+<h2 align="center">Charentaises</h2>
+	  
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr> 
+<td width=5><img alt="" height="24"  width="5" src="IMG/002/r-hg.gif" /></td>
+<td background="IMG/002/r-h.gif"><img alt="" height="24"  width="24" src="IMG/002/fiche-perso.gif" /></td>
+<td width=5><img alt="" height="24" width="5" src="IMG/002/r-hd.gif" /></td></tr>
+<tr><td background="IMG/002/r-g.gif" width="5">&nbsp;</td>
+            <td class="content"> 
+              <div class="chemin" align="right"> 
+                 <a href="rubrique.php3?id_rubrique=2">Techno Grog</a>	
+                 >
+                 <a href="rubrique.php3?id_rubrique=6">Technique...</a>	
+                
+                </div>
+			  <br>
+              <div class="h5">La Méthode Diceware</div>   
+              <br>
+              UN PROBL&Egrave;ME&nbsp;: VOTRE MOT DE PASSE. UNE SOLUTION&nbsp;: QUELQUES D&Eacute;S&nbsp;! <br>
+              POUR L&#8217;UTILISATEUR SANS CONNAISSANCE TECHNIQUE, SOUHAITANT CONSTRUIRE UNE PHRASE DE PASE S&Eacute;CURIS&Eacute;E ET FACILE &Agrave; M&Eacute;MORISER. 
+              <p>Premi&egrave;re publication : 15 d&eacute;cembre 2001, mise en 
+                ligne:  samedi 15 d&eacute;cembre 2001, <b>par <A HREF="mailto:gjldp@iquebec.com">Joachim D.</A></b> 
+                <br>
+                <br>
+                <b><p class="spip" align='justify'>
+Le grand point faible des logiciels de cryptographie forte est le mot de passe de l&#8217;utilisateur&nbsp;; découvert, il permet à n&#8217;importe qui d&#8217;utiliser une clé secrète comme le ferait son utilisateur légitime, corrompant le réseau de confiance, raison pour laquelle il faut des mots de passe forts. Malheureusement, les mots de passe forts sont le plus souvent difficiles à se rappeller. La méthode décrite ici permet de construire des mots de passe (phrases de passe) forts <i class="spip">et</i> facile à se rappeller&nbsp;; cette solution est élégante, efficace, et sûre, même si les moyens utilisés pour construire la phrase de passe sont publiquement accessibles. Le traducteur de cette méthode l&#8217;utilise couramment pour son usage personnel.</p>
+<p class="spip" align='justify'>(traduit de la "<a href="/web/20041012030451/http://www.diceware.com/" class="spip_out">Diceware Passphrase  Homepage</a>", par Arnold G. Reinhold)</p></b> 
+              <p> <p align='justify'>Cette page n'a qu'un seul but: vous enseigner un meilleur moyen de créer
+une phrase de passe à utiliser avec PGP, Hushmail, ou d'autres programmes de
+cryptage et de sécurité. L'information présentée ici peut être utilisées par
+n'importe qui. Aucune connaissance en cryptographie ou en mathématique n'est
+requise. Si vous vous sentez assez concerné par votre intimité pour utiliser
+le cryptage, prenez quelques minutes et apprenez comment le faire
+correctement.</p>
+
+<p align='justify'>[L'adresse de la version originale de ce document est désormais "<a
+href="/web/20041012030451/http://www.diceware.com/">http://www.diceware.com</a>". Mettez vos liens
+à jour.]</p>
+
+<p align='justify'>Cette page est également disponible en <a href="#Traduction">Chinois, en
+Japonais et en Finlandais</a>.</p>
+
+<p align='justify'>[...]</p>
+
+<h2>Qu'est-ce qu'une phrase de passe?</h2>
+
+<p align='justify'>Une phrase de passe est un groupe de mots et de caractères que vous tapez
+à l'adresse de votre ordinateur pour lui faire savoir avec sureté que la
+personne au clavier est bien vous. Vous avez souvent besoin d'une phrase de
+passe lorsque souhaitez faire faire à l'ordinateur quelque chose de spécial,
+comme coder ou décoder un message secret.</p>
+
+<p align='justify'>Par exemple <a href="/web/20041012030451/http://www.pgp.com/">PGP</a>, le programme de
+cryptage si populaire de <a href="/web/20041012030451/http://web.mit.edu/prz/">Phil
+Zimmermann</a>, vous oblige à créer une phrase de passe à chaque fois que
+vous signez ou décryptez des messages, de même que <a
+href="/web/20041012030451/http://www.gnupg.org/">GPG</a>, la version open-source. Un nouveau
+service en ligne, <a href="/web/20041012030451/http://www.hushmail.com/">HushMail</a>, fournit un
+service gratuit d'email cryptés, mais sa sécurité dépend presque entièrement
+de la qualité de la phrase de passe choisie. (Voyez la <a
+href="/web/20041012030451/http://www.world.std.com/~reinhold/dicewarefaq.html#hushmail">FAQ
+Diceware</a> si vous pensez utilisez Hushmail.) Vous devriez suivre les
+instructions de la méthode Diceware et préparer votre phrase de passe
+<em>avant</em> de créer votre clé PGP ou d'ouvrir votre nouveau compte
+Hushmail.</p>
+
+<p align='justify'>Les phrases de passe ne diffèrent des mots de passe que par la longueur.
+Les mots de passes sont habituellement courts - 6 à 10 caractères. Les mots
+de passe courts sont admissibles pour s'identifier auprès de systèmes
+informatiques programmés pour détecter un grand nombre de suppositions
+incorrectes, mais ils ne sont pas sûrs à utiliser avec des crypto-systèmes.
+Les phrases de passe sont habituellement beaucoup plus longues - jusqu'à 100
+caractères, voire plus. Leur plus grande longueur les rend plus sures. Les
+phrases de passe modernes furent inventées par <a href="#Porter">Sigmund N.
+Porter</a> en 1982.</p>
+
+<p align='justify'>Choisir une bonne phrase de passe est une des choses les plus importantes
+que vous pouvez faire pour préserver la confidentialité de vos données
+informatiques et de vos messages électroniques. Une phrase de passe doit
+être:</p>
+<ul>
+  <li>Connue de vous seul.</li>
+  <li>Suffisament longue pour être sure.</li>
+  <li>Difficile à deviner - même pour quelqu'un qui vous connait très
+  bien.</li>
+  <li>Facile à retenir et à saisir sans erreur.</li>
+</ul>
+
+<h2>Qu'est ce que [la méthode] Diceware?</h2>
+
+<p align='justify'>Diceware est une méthode pour construire une phrase de passe qui utilise
+des dés pour choisir au hasard des mots parmi une liste spéciale, appelée
+'liste de mots Diceware'. Chaque mot de la liste est précédé par un nombre à
+cinq chiffres. Chaque chiffre est compris entre un et six, ce qui vous permet
+de d'utiliser les tirages de cinq lancers de dés pour choisir un unique mot
+de la liste.</p>
+
+<p align='justify'>Voici un court extrait de la liste de mots Diceware:</p>
+<pre align='justify'>       16655     clause
+       16656     claw
+       16661     clay
+       16662     clean
+       16663     clear
+       16664     cleat
+       16665     cleft
+       16666     clerk
+       21111     cliche
+       21112     click
+       21113     cliff
+       21114     climb
+       21115     clime
+       21116     cling
+       21121     clink
+       21122     clint
+       21123     clio
+       21124     clip
+       21125     clive
+       21126     cloak
+       21131     clock</pre>
+
+<p align='justify'>La <a
+href="/web/20041012030451/http://www.world.std.com/~reinhold/diceware.wordlist.asc">liste
+complète</a> contient 7776 mots anglais courts, des abbréviations, et des
+séquences de caractères facile à se rappeller. La longueur moyenne de chaque
+mot est à peu près de 4,2 caractères. Le mot le plus long fait six lettres.
+La liste repose sur une liste plus longue postée sur le newsgroup
+<em>sci.crypt</em>, par Peter Kwangjun Suk. Une <a
+href="/web/20041012030451/http://world.std.com/~reinhold/beale.wordlist.asc">autre liste</a>,
+éditée par Alan Beale, contient moins d'américanismes et de mots obscures.
+Vous pouvez aussi télécharger <a
+href="/web/20041012030451/http://world.std.com/~reinhold/dicewarewordlist.ps">la liste de mots
+diceware au format PostScript</a>. Pour plus d'information voyez la <a
+href="/web/20041012030451/http://world.std.com/~reinhold/dicewarefaq.html">FAQ Diceware</a>.</p>
+
+<h2>Utiliser la méthode Diceware</h2>
+
+<p align='justify'>Pour utiliser la liste Diceware, vous avez besoin d'un ou plusieurs dés.
+Les dés sont inclus dans de nombreux jeux de plateau, et sont vendus
+séparément dans les magasins de jouets, [...] ou de magie. Aux Etats-Unis, <a
+href="/web/20041012030451/http://www.toysrus.com/">Toys"R"Us</a> les vend par cinq pour environ
+un dollar. Vous pouvez acheter en ligne des dés certifiés pour casino, auprès
+de <a href="/web/20041012030451/http://www.casinocom.com/Diceonly.html">Casinocom.com</a>, pour
+environ 11,00 US$, mais ils dépassent largement notre besoin. N'utilisez pas
+d'émulateur de dés, qu'il soit informatique ou électronique.</p>
+<ol>
+  <li>Premièrement, téléchargez la <a
+    href="/web/20041012030451/http://world.std.com/~reinhold/diceware.wordlist.asc">liste
+    Diceware</a> ou la <a
+    href="/web/20041012030451/http://world.std.com/~reinhold/beale.wordlist.asc">liste
+    alternative de Beale</a>, et enregistrez la sur votre ordinateur. <a
+    href="#print">Imprimez la</a> si vous le souhaitez. Ensuite revenez à
+    cette page à l'aide du bouton 'Retour' de votre navigateur.</li>
+  <li>Ensuite, décidez du nombre de mots que vous souhaitez avoir dans votre
+    phrase. Nous recommandons une phrase de passe de cinq mots pour utiliser
+    PGP, S/MIME et autres programmes de cryptage. Si vous êtes paresseux, une
+    phrase de passe de quatre mots fournit quand même une protection
+    raisonnable. PourS les paranoïaques, une phrase de passe de six mots
+    rendra toute attaque sur votre phrase irréalisable pour l'avenir
+    envisageable. Si vous souhaitez comprendre pourquoi, voyez la <a
+    href="/web/20041012030451/http://world.std.com/~reinhold/dicewarefaq.html">FAQ
+  Diceware</a>.</li>
+  <li>Maintenant lancez les dés et notez les résultats sur une feuille de
+    brouillon. Notez les par groupe de cinq. Faites autant de ces groupes que
+    vous voulez de mots dans votre phrase de passe. Vous pouvez lancer un dé
+    cinq fois, ou une fois cinq dés, ou une combinaison entre les deux. Si
+    vous lancez plusieurs dés à la fois, lisez le résultat de gauche à
+  droite.</li>
+  <li>recherchez chaque nombre à cinq chiffres ainsi obtenu dans la liste
+    Diceware et prenez le mot correspondant. Par exemple, 21124 signifie que
+    le prochain mot de votre phrase de passe sera "clip".</li>
+  <li>Une fois que vous avez fini, les mots que vous avez trouvés forment
+    votre nouvelle phrase de passe. Apprenez les par coeur, puis détruisez
+    votre feuille de brouillon, ou conservez la dans un endroit vraiment très
+    sûr. Voilà, c'est fini!</li>
+</ol>
+
+<h3>Exemples:</h3>
+
+<p align='justify'>Supposons que vous choisissez une phrase de passe de cinq mots, comme
+recommandé pour la plupart des utilisateurs. Vous aurez besoin de 5 fois 5 ou
+25 lancers de dés. Disons que les tirages donnent ceci:</p>
+<pre align='justify'>     
+
+      1, 6, 6, 6, 5, 1, 5, 6, 5, 3, 5, 6, 3, 2, 2, 3, 5, 6, 
+
+      1, 6, 6, 5, 2, 2, and 4</pre>
+
+<p align='justify'>Notez les résultats sur une feuille de brouillon par groupes de cinq
+tirages:</p>
+<pre align='justify'>      1 6 6 6 5 
+
+      1 5 6 5 3 
+
+      5 6 3 2 2 
+
+      3 5 6 1 6 
+
+      6 5 2 2 4</pre>
+
+<p align='justify'>Vous regardez ensuite dans la liste de mots Diceware pour chaque groupe de
+5 tirages le nombre résultat et le mot lui correspondant:</p>
+<pre align='justify'>      1 6 6 6 5     cleft
+
+      1 5 6 5 3     cam
+
+      5 6 3 2 2     synod
+
+      3 5 6 1 6     lacy
+
+      6 5 2 2 4     yr</pre>
+
+<p align='justify'>Votre Phrase de passe serait alors:</p>
+<pre align='justify'>      <strong>cleft cam synod lacy yr</strong></pre>
+
+<h3>Quelques tuyaux:</h3>
+<ul>
+  <li>Pour une sécurité optimale, assurez vous que vous êtes seul et fermez
+    les rideaux. Ecrivez sur une surface dure - pas sur un bloc-note. Après
+    avoir appris votre phrase de passe, brûlez vos notes, dispersez les
+    cendres et jetez les dans les toilettes.</li>
+  <li id="print">Si vous souhaitez travailler avec une copy imprimée de la
+    liste de mots, téléchargez <a
+    href="/web/20041012030451/http://world.std.com/~reinhold/dicewarewordlist.ps">la liste de
+    mots Diceware au format PostScript</a>. Ou bien ouvrez la liste ASCII
+    avec votre traitement de texte et formattez la en 4 colonnes et 54 lignes
+    par page. Vous obtiendrez un résultat propre et imprimable de 36 pages,
+    dans lequel les deux premier lancers de dés sont les mêmes pour toute la
+    page. Cela rend la recherche plus facile. Prenez garde à ne pas marquer
+    la copie imprimée en aucune façon alors que vous sélectionnez vos mots.
+    Vous pouvez aussi trouver la liste de mots en Appendice de <a
+    href="/web/20041012030451/http://world.std.com/~reinhold/diceware.html#internetsecrets">Internet
+    Secrets</a>.</li>
+  <li>Si vous avez besoin de créer souvent des phrases de passe, prenez une
+    boîte à chaussure ou une petite boîte alimentaire. Mettez-y cinq dés,
+    secouez les vigoureusement - au moins dix secousses - puis posez la boîte
+    de sorte que les dés glissent dans un angle. Ouvrez la boîte et lisez le
+    résultat de gauche à droite, ou de bas en haut dans le cas d'un
+    alignement vertical, puis recherchez directement le mot correspondant
+    dans la liste. Répétez cette procédure jusqu'à ce que vous ayez assez de
+    mots pour votre phrase de passe.</li>
+  <li>Nous recommandons que vous utilisiez la phrase de passe exactement
+    telle qu'elle est créée. Si vous souhaitez une phrase de passe plus
+    forte, choisissez un mot supplémentaire en utilisant la méthode
+  Diceware.</li>
+  <li>Dans la mesure où plusieurs mots font deux caractères ou moins, vous
+    pouvez obtenir une phrase de passe très courte. Si votre phrase de passe
+    fait moins de 14 caractères, en incluant les espaces entre les mots, nous
+    recommandons de reprendre à zéro et de créer une nouvelle phrase de
+    passe. Vous devriez reprendre à zéro aussi si la phrase de passe est une
+    proposition ou une phrase anglaise reconnaissable. (aucune de ces
+    situations n'arrive souvent.)</li>
+  <li>Voyez la <a
+    href="/web/20041012030451/http://world.std.com/~reinhold/dicewarefaq.html#memory">FAQ
+    Diceware</a> pour des suggestions sur la façon d'apprendre votre phrase
+    de passe.</li>
+</ul>
+
+<h3>Matériaux optionnels que vous n'avez pas vraiment besoin de
+connaître:</h3>
+
+<p align='justify'>Pour une sécurité supplémentaire sans ajouter de mot, introduisez dans
+votre phrase de passe un caractère spécial ou un numéro choisi au hasard.
+Voici comment le faire de façon sure: lancez un dé pour choisir un mot dans
+votre phrase de passe, lancez le encore pour choisir une lettre dans ce mot.
+Lancez le une troisième et une quatrième fois pour choisir le caractère à
+ajouter dans la table suivante:</p>
+<pre align='justify'>               Third Roll 
+         1   2   3   4   5   6
+
+   F 1   ~   !   #   $   %   ^
+
+   o 2   &amp;   *   (   )   -   =
+
+   u 3   +   [   ]   \   {   }
+
+   r 4   :   ;   "   '   &lt;   &gt;
+
+   t 5   ?   /   0   1   2   3
+
+   h 6   4   5   6   7   8   9</pre>
+
+<p align='justify'>Pour ceux qui sont enclins aux détails techniques, chaque mot de votre
+phrase de passe Diceware comporte 12,92 bits d'entropie, l'entropie étant ce
+qui quantifie sa sécurité. Une phrase de passe Diceware de cinq mots aurait
+une entropie d'au moins 64,6 bits; une phrase de six mots aurait 77,5 bits,
+et une de sept 90,4 bits. Insérer une lettre au hasard ajoute environ 10 bits
+d'entropy. Cela suppose, bien sûr, que vous conserviez le secret de votre
+phrase de passe.</p>
+
+<h2>Pourquoi Diceware?</h2>
+
+<p align='justify'>Il y a <a href="#faqs">de nombreuses recommandations</a> sur l'Internet à
+propos de la façon de choisir une phrase de passe. Plusieurs sont bonnes,
+quelques unes sont mauvaises, mais presque toutes attendent de l'utilisateur
+qu'il juge de ce qui va être difficile à deviner pour quelqu'un d'autre.
+Certaines ne donnent aucune indication sur la façon de faire ça, d'autres
+vous font faire de complexes calculs mathématiques. Par contraste, la méthode
+Diceware pour créer des phrases de passe est:</p>
+<ul>
+  <li>Facile à apprendre et utiliser.</li>
+  <li>Très sure.</li>
+  <li>Totalement descriptive - nous vous indiquons exactement que faire à
+    chaque étape du processus.</li>
+  <li>Transparente - il n'y a pas de "Faites moi confiance".</li>
+  <li>Gratuite - il n'y a pas de programmes ou de matériel requis, juste la
+    liste Diceware et quelques dés ordinaires.</li>
+</ul>
+
+<p align='justify'>La nature descriptive de la méthode Diceware est très importante pour les
+nouveaux utilisateurs de PGP. Voici le témoignage d'une expérience
+personnelle, posté sur le newsgroup <em>alt.security.pgp</em> en Janvien
+1996:</p>
+
+<blockquote>
+  <p align='justify'>"Je souhaitais juste rapporter une anecdote sur la difficulté qu'il y a
+  à convaincre un novice de l'importance d'un mot de passe sûr, et l'amener à
+  comprendre ce qu'est un mot de passe sûr. Je suis un ancien aussi bien sur
+  l'Internet qu'en matière de sécurité. Mais ma soeur débute complètement, et
+  vient jsute d'ouvrir un compte Internet. Elle vit [dans le Middle-West]
+  alors que je vis [sur la côte ouest]. Ainsi, nous échangeons un certain
+  nombre de messages électroniques très personnels.</p>
+
+  <p align='justify'>Récemment, elle décida de donner son mot de passe Internet à son mari
+  afin qu'il puisse se connecter. Cependant, elle voulait qu'il ne puisse pas
+  lire les messages privés que nous échangions. Bien sûr, je lui parlai de
+  PGP.</p>
+
+  <p align='justify'>Je lui donnai la leçon habituel sur l'importance de choisir un mot de
+  passe que personne d'autre ne puisse facilement deviner, et que le mot de
+  passe idéal serait un mot obscur et absurde qui n'aurait de signification
+  que pour elle. Je lui dis de ne choisir ni anniversaires, ni
+  commémorations, ni noms propres, et autres indications de cet ordre. Je ne
+  suggérai pas de combinaison aléatoire de lettres et de nombres, car nous
+  n'en étions pas à vouloir une sécurité de grande classe, nous voulions
+  juste conserver cette correspondance loin des yeux de son mari. Alors,
+  après qu'elle eut choisi son mot de passe, je décidai d'essayer de le
+  pirater. Le PREMIER mot de passe que j'essayai fonctionna! Elle était très
+  surprise de la facilité avec laquelle je l'avais truvé, mais c'était un mot
+  que quiconque la connaissait aurait à l'esprit. Donc, après lui avoir donné
+  quelques trucs supplémentaires sur un bon choix de mot de passe, je la
+  laissai essayer encore. Cette fois-ci, cela me prit trois essais avant de
+  trouver le bon mot. Finalement, elle abandonna et me laissa choisir un mot
+  de passe pour elle."</p>
+</blockquote>
+
+<p align='justify'>Aurait-elle utilisé la méthode Diceware que sa première phrase elle-même
+aurait été totalement sûre et connue d'elle seule. Souvenez-vous: en
+cryptographie à clé publique, la sécurité de vos messages dépend de la phrase
+de passe de leur <em>destinataire</em>. Passez le mot sur cette méthode.</p>
+
+<h2>Liens et références:</h2>
+
+<h3>Liens en relation avec Diceware:</h3>
+<ul>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/dicewarefaq.html">Diceware
+    FAQ</a>: Questions et réponses pour ceux qui souhaitent en savoir plus
+    sur Diceware et la création de phrases de passe.</li>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/passphrase.survey.asc">A Survey
+    of PGP Passphrase Usage</a>: Un petit sondage que j'ai exécuté pour
+    déterminer ce que font réellement les utilisateurs de PGP pour créer leur
+    phrase de passe, et quelques suggestions d'amélioration.</li>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/diceware.txt">Diceware for
+    Passphrase Generation and Other Cryptographic Applications</a>: Comprend
+    des indications sur les autres utilisations de Diceware et une analye de
+    la sécurité de la méthode.</li>
+  <li><a
+    href="/web/20041012030451/http://www-106.ibm.com/developerworks/library/pass2/index.html">Protecting
+    Passwords</a>: par Gary McGraw &amp; John Viega. Un article d'<a
+    href="/web/20041012030451/http://www-106.ibm.com/developerworks/security/">IBM Developerworks
+    Security Library</a> qui traite des mots de passe, des phrases de passe
+    et de la méthode Diceware.</li>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/passgen.html">Passgen: A
+    Password Generator Java Applet</a>: Cette applette Java utilise la
+    latence de votre clavier pour créer des mots de passe aléatoires fondés
+    sur une format définissable. Ce n'est pas aussi sûr que la méthode
+    Diceware, mais cela suffit pour les mots de passe de login et les
+    utilisations similaires. Le code source est fourni.</li>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/truenoise.html">Random Noises
+    Sources</a>: Une collection de sources aléatoires à utiliser en
+    informatique.</li>
+  <li><a href="/web/20041012030451/http://ciphersaber.gurus.com/">CipherSaber Home Page</a>:
+    Apprenez comment fabriquer votre propre programme de cryptage. C'est plus
+    facile que vous ne pensez!</li>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/papers.html">Autres articles
+    sur la cryptographie</a>, par Arnold Rheinold.</li>
+</ul>
+
+<h3>[Autres versions de ce document:</h3>
+<ul>
+  <li>Page originale: 
+    <p align='justify'>&lt;<a
+    href="/web/20041012030451/http://www.diceware.com/">http://www.diceware.com/</a>&gt;]</p>
+  </li>
+  <li><a name="Traduction" id="Traduction">Traductions:</a> 
+    <ul>
+      <li><a
+        href="/web/20041012030451/http://www.st.rim.or.jp/~hyuki/diceware/dicewarj.htm">Version
+        Japonaise</a> de la "Diceware Home Page", traduite et maintenue par
+        Hiroshi Yuki.</li>
+      <li><a
+        href="/web/20041012030451/http://world.std.com/~reinhold/diceware.chinese.html">Version
+        Chinoise</a> de la "Diceware Home Page", traduite et maintenue par
+        Lian.</li>
+      <li><a href="/web/20041012030451/http://www.iki.fi/kaip/noppaware/">Version Finlandaise</a>
+        de la "Diceware Home Page", traduite et maintenue par Kai Puolamaki,
+        avec <a href="/web/20041012030451/http://www.iki.fi/kaip/noppaware/noppaware.txt">une
+        liste de mots finlandais</a>. Voici un exemple de phrase de passe
+        Noppaware ("Noppa" signifie 'dé' en Finlandais): 
+        <pre align='justify'>olli kukot hoveli hintaa airoja</pre>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3>[Documents complémentaires:]</h3>
+<ul>
+  <li><a href="/web/20041012030451/http://world.std.com/~reinhold/dicewarekit.html">The Diceware
+    Kit</a>: Instructions pour créer une liste de mots Diceware pour d'autres
+    langues.</li>
+</ul>
+
+<p align='justify'>S. N. <a name="Porter" id="Porter">Porter</a>, <em>A Password Extension
+for Improved Human Factors</em>, Advances in Cryptology: A Report on CRYPTO
+81, Allen Gersho, editor, volume 0, U.C. Santa Barbara Dept. of Elec. and
+Computer Eng., Santa Barbara, 1982. Pages 81--81. Also in Computers &amp;
+Security, Vol. 1. No. 1, 1982, North Holland Press.</p>
+<ul>
+  <li>Oren Tirosh maintient <a href="/web/20041012030451/http://www.tothink.com/mnemonic/">un
+    site web sur l'utilisation de listes de mots pour représenter de grands
+    nombres</a>, pour la cryptographie et d'autres utilisations. Il fait
+    référence à un grand nombre de listes intéressantes.</li>
+</ul>
+
+<p align='justify'>[...]</p>
+
+<h3><a name="PGPInfo" id="PGPInfo">Pour plus d'informations sur PGP:</a></h3>
+
+<p align='justify'><a href="/web/20041012030451/http://net.gurus.com/pgp">Internet Gurus Central -- Introduction
+to PGP</a></p>
+
+<p align='justify'><a href="/web/20041012030451/http://web.mit.edu/network/pgp.html">MIT's Distribution Site for
+PGP</a></p>
+
+<p align='justify'><a href="/web/20041012030451/http://www.pgpi.com/">PGP International Home Page</a></p>
+
+<p align='justify'><a href="/web/20041012030451/http://world.std.com/~franl/crypto.html">Fran Litterio's
+Cryptography, PGP and Your Privacy Page</a></p>
+
+<p align='justify'><a href="/web/20041012030451/http://www.pgp.com/">PGP Home Page</a></p>
+
+<p align='justify'>[Liens recommandés par le traducteur sur PGP:</p>
+<ul>
+  <li>Openpgp en français: 
+    <p align='justify'>&lt;<a
+    href="/web/20041012030451/http://www.openpgp.fr.st/">http//www.openpgp.fr.st</a>&gt;</p>
+  </li>
+  <li>PGP International: 
+    <p align='justify'>Miroir suisse: &lt;<a
+    href="/web/20041012030451/http://www.ch.pgpi.org/">http://www.ch.pgpi.org/</a>&gt;]</p>
+  </li>
+</ul>
+<hr />
+
+<p id="faqs" align='justify'>Voici d'autres sites proposant des recommandations sur la
+constitution de phrases de passe. Je n'insinue pas que l'information fournie
+par ces sites est fausse, mais juste qu'elle pourrait s'avérer trop complexe
+pour la plupart des gens. Allez y voir et jugez en par vous-même.</p>
+<ul>
+  <li><a
+    href="/web/20041012030451/http://www.stack.nl/~galactus/remailers/passphrase-faq.html">Passphrase
+    FAQ by Randall T. Williams</a> (en anglais).</li>
+  <li><a href="/web/20041012030451/http://www.skuz.net/passfaq.html">SkuzNET - How to Choose a
+    Passphrase FAQ</a> (en anglais).</li>
+</ul>
+
+<p align='justify'>©Copyright (c) 1996-2000, Arnold G. Reinhold, Cambridge, Mass. USA.</p>
+<hr />
+
+<h2><a name="note" id="note">Note du traducteur sur "La Méthode
+Diceware"</a></h2>
+
+<p align='justify'>Ce document est traduit d'une page de Arnold G. Reinhold, avec son aimable
+autorisation. Vous pourrez trouver l'original sur le &lt;<a
+href="/web/20041012030451/http://www.diceware.com/">site personnel de Arnold G. Reinhold</a>&gt;.
+Des modifications structurelles ont été apportées à la page de Rheinold, mais
+le texte original a été autant que possible respecté. Vous trouverez la liste
+des modifications &lt;<a
+href="trad_diceware.fr.html#modifs">ici</a><a></a>&gt;. La traduction est
+assez libre. Si vous remarquez des erreurs conséquentes, ou connaissez des
+tournures plus appropriées, n'hésitez pas à &lt;<a
+href="/web/20041012030451/http://www.gjldp.org/PERSO/contact/index.html">m'en faire part</a>&gt;.</p>
+
+<p align='justify'>La séquence de caractère "[...]" indique la suppression d'éléments de
+l'original (cas où ces éléments n'ont aucune pertinence pour un francophone).
+Les textes compris entre crochets '[' &amp; ']' sont mes interpolations.</p>
+
+<p align='justify'><a name="modifs1" id="modifs1">Terminologie et modifications:</a></p>
+<ul>
+  <li>Le terme "passphrase" a été systématiquement traduit par "phrase de
+    passe", un peu long mais sans ambiguité.</li>
+  <li>Le terme "open-source" a été écrit de cette façon car c'est le choix de
+    Reinhold, qui nous a semblé cohérent.</li>
+  <li>Le terme "Diceware" a été traduit soit par "Diceware", soit par
+    "méthode Diceware". 
+    <p align='justify'>En soit, l'usage d'accoller deux termes comme c'est le cas trouve
+    difficilement des équivalents en français. D'autre part, l'idée
+    fondamentale que contient ce terme est celui d'un procédé, presque un
+    algorithme. C'est pourquoi je lui ai conféré la traduction sur-formulée
+    de "méthode".</p>
+    <p align='justify'>La sur-formulation a été abandonnée dans l'expression "liste de mots
+    Diceware" et "liste Diceware".</p>
+  </li>
+  <li>"casino-grade dice" a été rendu par "des dés certifiés pour casino",
+    faute d'une expression plus adéquate.</li>
+  <li>"rolls" (of dice) a été rendu par "lancer".</li>
+  <li>"outcome" (of the roll) a été rendu par "tirage".</li>
+  <li>"small food storage box" a été rendu par "boîte alimentaire".</li>
+  <li>Le titre a été adapté dans un sens traduisant mieux le sujet général du
+    document.</li>
+  <li>Les renvois au traductions japonaise chinoise et finlandaise ont été
+    adaptés.</li>
+  <li>Le lien vers &lt;<a
+    href="/web/20041012030451/http://www.pgp.com/">http://www.pgp.com/</a>&gt; a été déplacé sur
+    certaines occurences de "PGP".</li>
+  <li>Certaines occurences de "Phil Zimmermann" ont donné lieu à un lien vers
+    &lt;<a href="/web/20041012030451/http://web.mit.edu/prz/">la page de PRZ</a>&gt;.</li>
+</ul> 
+              <center>
+                <table cellpadding=0 cellspacing=10>
+                  
+                </table>
+              </center>
+               
+              <p><p class="spip" align='justify'>
+Dernière mise à jour&nbsp;:</p>
+<p class="spip" align='justify'>16 mars 2003</p>
+<p class="spip" align='justify'>Transféré sous SPIP le 26 octobre 2003</p></p>
+                
+              <br>
+             [ <a href="article_print.php3?id_article=4">Imprimer cet article</a> ]  [ <a href="#">Haut</a> ] <br>
+            </td>
+              <td background="IMG/002/r-d.gif" width="5">&nbsp;</td><tr> 
+ <td><img alt="" width="5" height="5" src="IMG/002/r-bg.gif" /></td>
+<td background="IMG/002/r-b.gif"><img alt="" width="5" height="5" src="IMG/002/rien.gif" /></td>
+<td><img alt="" width="5" height="5" src="IMG/002/r-bd.gif" /></td>
+</tr></table>
+        <br>
+      </TD>
+      <TD width=32>&nbsp;</TD>
+      <TD vAlign=top width="241"> 
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr> 
+<td width=5><img alt="" height="24"  width="5" src="IMG/002/r-hg.gif" /></td>
+<td background="IMG/002/r-h.gif"><img alt="" height="24"  width="24" src="IMG/002/secteur.gif" /></td>
+<td width=5><img alt="" height="24" width="5" src="IMG/002/r-hd.gif" /></td></tr>
+<tr><td background="IMG/002/r-g.gif" width="5">&nbsp;</td><td class="content">
+
+                    
+                    <img src="IMG/002/puce.gif" width="8" height="11"> 
+                    <B><A HREF="rubrique.php3?id_rubrique=14">Dossiers en cours</A></B> 
+                    <DIV id=Layer5 
+                        style="MARGIN-TOP: 1px"> 
+                      
+                      &nbsp; &nbsp &nbsp<img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+                      <A HREF="rubrique.php3?id_rubrique=17" TITLE="La loi sur les chiens dangereux">Sur la loi Sarre</A> 
+                      <BR />
+                      
+                      <BR />
+                    </DIV>
+                    
+      
+                    <img src="IMG/002/puce.gif" width="8" height="11"> 
+                    <B><A HREF="rubrique.php3?id_rubrique=18" TITLE="Mes chiens, vos chiens, leurs chiens, tout ce qui concerne les chiens, de près ou de loin... et leurs maîtres... m'intéresse.">Encres cynophiles</A></B> 
+                    <DIV id=Layer5 
+                        style="MARGIN-TOP: 1px"> 
+                      
+                      <BR />
+                    </DIV>
+                    
+      
+                    <img src="IMG/002/puce.gif" width="8" height="11"> 
+                    <B><A HREF="rubrique.php3?id_rubrique=19" TITLE="Sur les Logiciels Libres, le droit de copie et le copyleft">Gauche d&#8217;auteur</A></B> 
+                    <DIV id=Layer5 
+                        style="MARGIN-TOP: 1px"> 
+                      
+                      &nbsp; &nbsp &nbsp<img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+                      <A HREF="rubrique.php3?id_rubrique=20" TITLE="Logiciels que je connais, utilise, et apprécie">Quelques logiciels libres...</A> 
+                      <BR />
+                      
+                      <BR />
+                    </DIV>
+                    
+      
+                    <img src="IMG/002/puce.gif" width="8" height="11"> 
+                    <B><A HREF="rubrique.php3?id_rubrique=13" TITLE="Le Labo de Frankendiafoirus">Le Laboratoire du Professeur Diafoirus</A></B> 
+                    <DIV id=Layer5 
+                        style="MARGIN-TOP: 1px"> 
+                      
+                      &nbsp; &nbsp &nbsp<img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+                      <A HREF="rubrique.php3?id_rubrique=4" TITLE="Trollozoo du Prof">La cage à troll</A> 
+                      <BR />
+                      
+                      <BR />
+                    </DIV>
+                    
+      
+                    <img src="IMG/002/puce.gif" width="8" height="11"> 
+                    <B><A HREF="rubrique.php3?id_rubrique=2">Techno Grog</A></B> 
+                    <DIV id=Layer5 
+                        style="MARGIN-TOP: 1px"> 
+                      
+                      &nbsp; &nbsp &nbsp<img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+                      <A HREF="rubrique.php3?id_rubrique=6">Technique...</A> 
+                      <BR />
+                      
+                      <BR />
+                    </DIV>
+                    
+      
+      <hr>
+      &nbsp; &nbsp &nbsp<img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+      <a href="#">Contact</a> <br>
+      <br>
+      [ <a href="plan.php3" title="Acc&egrave;s au Plan du Site">Plan du site</a> 
+      ] [ <a href="#">Haut</a> ] </td>
+    <td background="IMG/002/r-d.gif" width="5">&nbsp;</td><tr> 
+ <td><img alt="" width="5" height="5" src="IMG/002/r-bg.gif" /></td>
+<td background="IMG/002/r-b.gif"><img alt="" width="5" height="5" src="IMG/002/rien.gif" /></td>
+<td><img alt="" width="5" height="5" src="IMG/002/r-bd.gif" /></td>
+</tr></table><br>
+<table border=0 cellpadding=0 cellspacing=0 width="100%"><tr> 
+<td width=5><img alt="" height="24"  width="5" src="IMG/002/r-hg.gif" /></td>
+              <td background="IMG/002/r-h.gif"><img alt="" height="24"  width="24" src="IMG/002/breve.gif" /></td>
+<td width=5><img alt="" height="24" width="5" src="IMG/002/r-hd.gif" /></td></tr>
+<tr><td background="IMG/002/r-g.gif" width="5">&nbsp;</td>
+              
+            <td class="content"> 
+			  <div class="h5">Dans la m&ecirc;me rubrique</div><br>
+              
+              <b>Autres articles :</b> <br>
+              
+              <img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+              <a href="article.php3?id_article=8">Signer des pages web avec PGP&nbsp;:</a> <br>
+              
+              <img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+              <a href="article.php3?id_article=7">Contre-Attaque</a> <br>
+              
+              <img src="IMG/002/puce_fleche.png" width="8" height="7"> 
+              <a href="article.php3?id_article=11">La redirection de page</a> <br>
+              
+              <br>
+              
+              
+              <br>
+              <br>
+              [ <a href="#">Haut</a> ] </td>
+              <td background="IMG/002/r-d.gif" width="5">&nbsp;</td><tr> 
+ <td><img alt="" width="5" height="5" src="IMG/002/r-bg.gif" /></td>
+<td background="IMG/002/r-b.gif"><img alt="" width="5" height="5" src="IMG/002/rien.gif" /></td>
+<td><img alt="" width="5" height="5" src="IMG/002/r-bd.gif" /></td>
+</tr></table>
+        </TD>
+    </TR>
+    </TBODY> 
+  </TABLE>
+
+  <br>
+    <table class="tab_menu" cellpadding="0" cellspacing="4">
+    <tr> 
+      <td class="grison_actif" onClick="d('index.php3');" onMouseOut="c(this,'grison_actif');" 
+ onMouseOver="c(this,'grison');"> <a class="01" href="index.php3">Accueil</a></td>
+      <td class="gris" onClick="d('breve.php3')" onMouseOut="c(this,'gris');" 
+ onMouseOver="c(this,'grison');"><a class="01" href="breve.php3">Br&egrave;ves</a></td>
+       
+      <td class="gris" onClick="d('plan.php3')" onMouseOut="c(this,'gris');" 
+ onMouseOver="c(this,'grison');"><a class="01" href="plan.php3">Plan du site</a></td>
+       <td class="gris" onClick="d('#');" onMouseOut="c(this,'gris');" 
+ onMouseOver="c(this,'grison');"><a class="01" href="#">Contact</a></td>
+      <td width="30%" align="right">
+        <form action="recherche.php3" method="post" style="MARGIN: 0px">
+          <input class="spip_recherche" name="recherche" size="18" >
+          <input name="submit" type="submit" class="submit" value="Ok">
+        </form>
+      </td>
+    </tr>
+  </table>
+<br><br>   Vous pouvez <a href="backend.php3" target="_blank">afficher</a> les news sur 
+votre site.<br>
+Copyright &copy; <a href="/web/20041012030451/http://www.gjldp.org/CHARENTAISES">Charentaises</a> 2002<br>
+<br>
+Site d&eacute;velopp&eacute; avec <a href="/web/20041012030451/http://www.uzine.net/spip" target="_blank">SPIP</a>, 
+un programme Open Source &eacute;crit en <a href="/web/20041012030451/http://www.php.net/" target="_blank">PHP</a> 
+sous <a href="/web/20041012030451/http://www.gnu.org/" target="_blank">licence GNU/GPL</a>.<br>
+<br>
+Design &copy; <a href="/web/20041012030451/http://www.drop-zone-city.com/" target="_blank">Drop Zone 
+City</a> <br> <br></div>
+  
+</BODY>
+
+</HTML>
+
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 3:04:51 Okt 12, 2004 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:47:47 Mrz 28, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
