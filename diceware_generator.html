@@ -5,6 +5,94 @@
    <title>Diceware Password Generator</title>
 </head>
 <body>
+   <h1>
+      Diceware Password Generator
+   </h1>
+
+   <p>
+      <a href="http://world.std.com/~reinhold/diceware.html">Diceware</a> is a method for creating secure, memorable passphrases.
+   </p>
+   <p>
+      Save this page (right click and "Save as ...") and then run it locally. This way you can be sure that nobody can intercept your generated passphrase.
+   </p>
+
+   <p>
+      Choose a passphrase length (7 is the recommended minimum):
+      <input type="text" value="7" id="passphrase_length">
+   </p>
+   <p>
+      <button id="generate_passphrase">Generate Passphrase</button>
+   </p>
+
+<!-- add choosing the wordlist -->
    
+   <p>
+      Your passphrase is <br>
+      <span id="generated_phrase"></span> 
+   </p>
+
+   <h2>
+      Notes on implementation & security
+   </h2>
+
+   <p>
+      This is the basic version of the Diceware Password Generator. It is a single HTML page without any external dependencies. The code does not use any newer or advanced HTML, CSS or JavaScript features, and should work in just about any browser where JavaScript is enabled.
+   </p>
+   <p>
+      The source code is simple enough, and a cursory glance should convince you that this doesn't call home (or anywhere else).
+   </p>
+   <p>
+      Browser random number generators may not be great, but they should be plenty random enought for what they're used here.
+   </p>
+   <p>
+      This is less secure than using a printed list and dice in that if your computer is compromised, an attacker may get at the passphrase. Since entering a passphrase generated with paper and dice would also be insecure on such a machine, I see the loss in security here as purely theoretical for most use cases.
+   </p>
+   <p>
+      This was written for my fun and your convenience, and comes without any warranties of any kind.
+   </p>
+
+   <script>
+      (function diceware () {
+
+         var generated_phrase = document.getElementById("generated_phrase");
+         var passphrase_length = document.getElementById("passphrase_length");
+         var wordList = worldLists["english"];
+
+         document.getElementById("generate_passphrase").onClick(function() {
+            var iterations = passphrase_length.value;
+            
+
+            // get passphrase constituent words
+            for (var i = 0; i <= iterations; i++) {
+               
+               // roll for individual constituent word
+               for (var r = 0; i <= 5; i++) {
+                  var id= "";
+                  var roll = Math.floor(Math.random() * 7) + 1;   // add a check whether the more secure window.crypto.getRandomValues() is available and use this then
+                  id += roll;
+               }
+
+               // get individual constituen word
+               var word = wordList[id];
+               passphrase += word;
+             
+            }
+
+            generated_phrase.value = passphrase;
+
+         });
+
+         // word lists
+
+         var wordLists = {};
+
+         wordLists.english = {
+            
+         }
+
+
+      })()
+   </script>
+
 </body>
 </html>
